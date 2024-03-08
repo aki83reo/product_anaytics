@@ -102,8 +102,8 @@ def aspect_extraction(documents):
                             Step5 : Dont add extra text, it should return only a list.
                             text : {all_reviews}
 
-                            """
-
+                             """
+ 
     aspect_extraction_prompt2 = """ Analyse the list of aspects and perform the below actions :
                             Step1 : Group the aspects that are related to the same benefit or objective offered by the product into a single set.
                             Step2 : For each set obtained in step 1 assign a attribute name that captures the benefit theme
